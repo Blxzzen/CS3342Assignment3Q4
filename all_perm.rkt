@@ -38,7 +38,3 @@
                                        (permutations-helper (remove-one item current-list))))
                                 current-list)))))))
       (permutations-helper sorted-lst))))
-
-(all_perm '())
-(all_perm '(2 3 1))
-(all_perm '(1 2))
